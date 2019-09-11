@@ -19,7 +19,7 @@
       height="900"
       class="img"
     />
-    <h4>Have any questions?</h4>
+    <h4 id="questions">Have any questions?</h4>
     <form>
       <div>
         <input name="firstname" type="text" placeholder="First Name" />
@@ -28,11 +28,7 @@
         <input name="email" type="text" placeholder="Phone Number" />
       </div>
       <div>
-        <textarea
-          rows="20"
-          cols="30"
-          placeholder="What is your question or inquiry?"
-        ></textarea>
+        <textarea placeholder="What is your question or inquiry?"></textarea>
       </div>
       <input type="submit" value="Submit" />
     </form>
@@ -83,17 +79,31 @@
     <div class="container">
       <div class="row">
         <div class="col-sm">
-          <button onclick="window.location.href = 'resume.html';">
+          <button
+            onclick="window.location.href = 'resume.html';"
+            type="button"
+            class="btn btn-warning"
+          >
             Work & Experiences
           </button>
         </div>
         <div class="col-sm">
-          <button onclick="window.location.href = 'about.html';">
+          <button
+            onclick="window.location.href = 'about.html';"
+            type="button"
+            class="btn btn-primary"
+          >
             About Me
           </button>
         </div>
         <div class="col-sm">
-          <button onclick="window.location.href = 'index.html';">Home</button>
+          <button
+            onclick="window.location.href = 'index.html';"
+            type="button"
+            class="btn btn-success"
+          >
+            Home
+          </button>
         </div>
       </div>
     </div>

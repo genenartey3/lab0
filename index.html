@@ -6,6 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -15,8 +16,8 @@
     <title>THE Gene Nartey</title>
   </head>
   <body>
-    <h1>Welcome to...</h1>
-    <h2>Gene Nartey's About Me Page!</h2>
+    <h1 class="display-4">Introducing...</h1>
+    <h1 class="display-1">Gene Nartey!</h1>
     <div
       id="carouselExampleIndicators"
       class="carousel slide"
@@ -76,22 +77,38 @@
     <p>
       Gene Nartey is a current Sophomore at Harvard University, studying
       Computer Science. Rumor has it, that he is one of the SAUCIEST kings to
-      ever grace the campus of Harvard University
+      ever grace the campus of Harvard University. His Hobbies include modeling,
+      dance, avidly listening to music and entrepeneurship. For his
+      accommplishments, he thanks his family for all of their love and support &
+      mentors he has encountered on his professional journey. Learn More about
+      Gene by clicking the buttons below!
     </p>
     <div class="container">
       <div class="row">
         <div class="col-sm">
-          <button onclick="window.location.href = 'contact.html';">
+          <button
+            onclick="window.location.href = 'contact.html';"
+            type="button"
+            class="btn btn-danger"
+          >
             Contact Me!
           </button>
         </div>
         <div class="col-sm">
-          <button onclick="window.location.href = 'about.html';">
+          <button
+            type="button"
+            class="btn btn-primary"
+            onclick="window.location.href = 'about.html';"
+          >
             About Me
           </button>
         </div>
         <div class="col-sm">
-          <button onclick="window.location.href = 'resume.html';">
+          <button
+            onclick="window.location.href = 'resume.html';"
+            type="button"
+            class="btn btn-warning"
+          >
             Work & Experiences
           </button>
         </div>
