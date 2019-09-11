@@ -1,0 +1,35 @@
+body {
+  background-color: powderblue;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.job {
+  background-color: lightsalmon;
+  width: 600px;
+  border: 15px solid whitesmoke;
+  padding: 50px;
+  margin: 20px;
+  text-align: center;
+}
+
+img {
+  align-content: center;
+}
+
+button {
+  align-items: center;
+}
+
+#contacts {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#contacts tr:nth-child(even) {
+  background-color: gray;
+}
