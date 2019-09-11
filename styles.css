@@ -9,6 +9,7 @@ h3 {
 }
 
 .job {
+  align-content: center;
   background-color: lightsalmon;
   width: 600px;
   border: 15px solid whitesmoke;
@@ -52,7 +53,7 @@ select {
 
 input[type="submit"] {
   width: 100%;
-  background-color: yellow;
+  background-color: rgb(0, 132, 255);
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -62,5 +63,13 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: greenyellow;
+  background-color: rgb(162, 241, 42);
+}
+
+#questions {
+  text-align: center;
+}
+
+p {
+  text-align: center;
 }
